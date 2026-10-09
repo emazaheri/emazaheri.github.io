@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "ios-agent",
+      "type": "skill-md",
+      "description": "Drive an iOS Simulator or a real iPhone through the ios-mcp MCP server: set up, the observe-act-verify loop, and the approval gate.",
+      "url": "https://emazaheri.github.io/.well-known/agent-skills/ios-agent/SKILL.md",
+      "digest": "sha256:ee689d45ca5d431650e9f93096b46061f106618e72e5d806c794c28a20ac863b"
+    }
+  ]
+}

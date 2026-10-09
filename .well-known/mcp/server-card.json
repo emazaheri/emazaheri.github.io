@@ -1,0 +1,39 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/mcp-server-card/v1.json",
+  "version": "1.0",
+  "protocolVersion": "2025-11-25",
+  "serverInfo": {
+    "name": "io.github.emazaheri/ios-agent",
+    "title": "ios-agent",
+    "version": "0.6.0"
+  },
+  "description": "Drive a real iPhone or an iOS Simulator with an AI agent, through XCUIAutomation. Every action returns the screen it produced; anything that sends, pays or deletes asks first.",
+  "documentationUrl": "https://emazaheri.github.io/ios-agent/",
+  "repository": {
+    "url": "https://github.com/emazaheri/ios-agent",
+    "source": "github"
+  },
+  "transport": {
+    "type": "streamable-http",
+    "endpoint": "http://127.0.0.1:8765/mcp",
+    "note": "Runs on the developer's own Mac, which must have Xcode and a simulator or an attached iPhone. Start it with `uvx ios-mcp serve --transport http`; it binds loopback only and has no authentication. Most clients launch it over stdio instead: `uvx ios-mcp`."
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "ios-mcp",
+      "version": "0.6.0",
+      "runtimeHint": "uvx",
+      "transport": { "type": "stdio" }
+    }
+  ],
+  "capabilities": {
+    "tools": { "listChanged": false },
+    "resources": { "subscribe": false, "listChanged": false },
+    "prompts": { "listChanged": false }
+  },
+  "tools": "dynamic",
+  "resources": "dynamic",
+  "prompts": ["ios_operator"]
+}

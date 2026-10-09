@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Pages served from this repository. Project sites publish their own
+     sitemaps, referenced from /robots.txt: ios-agent's lists every docs page. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://emazaheri.github.io/</loc></url>
+  <url><loc>https://emazaheri.github.io/ios-agent/</loc></url>
+</urlset>

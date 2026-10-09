@@ -1,0 +1,32 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "emazaheri.github.io",
+    "identifier": "did:web:emazaheri.github.io"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:emazaheri.github.io:server:ios-agent",
+      "displayName": "ios-agent MCP server",
+      "type": "application/mcp-server-card+json",
+      "url": "https://emazaheri.github.io/.well-known/mcp/server-card.json",
+      "representativeQueries": [
+        "let an AI agent tap through an iOS Simulator",
+        "MCP server to control a real iPhone",
+        "check that my iOS app change works in the running app",
+        "automate iOS Settings from Claude Code or Cursor"
+      ]
+    },
+    {
+      "identifier": "urn:air:emazaheri.github.io:skill:ios-agent",
+      "displayName": "ios-agent skill",
+      "type": "text/markdown",
+      "url": "https://emazaheri.github.io/.well-known/agent-skills/ios-agent/SKILL.md",
+      "representativeQueries": [
+        "how do I set up ios-mcp",
+        "drive an iPhone with an agent without coordinates",
+        "observe act verify loop for iOS automation"
+      ]
+    }
+  ]
+}
